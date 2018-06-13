@@ -1,0 +1,4 @@
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\garagium_adm\bin\garagium_adm.dll
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\garagium_adm\bin\garagium_adm.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\garagium_adm\obj\Debug\garagium_adm.dll
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\garagium_adm\obj\Debug\garagium_adm.pdb
