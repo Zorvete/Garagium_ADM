@@ -2,20 +2,22 @@
 <publishData>
   <publishProfile publishUrl="C:\inetpub\wwwroot\GaragiumAdm" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="192.168.1.65/GaragiumAdm" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
     <file relUrl="Web.config" publishTime="06/13/2018 21:14:29" />
-    <file relUrl="Site.Master" publishTime="06/13/2018 21:09:17" />
     <file relUrl="Account/Register.aspx" publishTime="06/13/2018 19:36:45" />
-    <file relUrl="bin/garagium_adm.pdb" publishTime="06/13/2018 21:09:18" />
-    <file relUrl="Account/ChangePassword.aspx" publishTime="06/13/2018 19:36:45" />
+    <file relUrl="Site.Master" publishTime="06/13/2018 21:09:17" />
+    <file relUrl="bin/garagium_adm.dll" publishTime="06/14/2018 22:12:07" />
+    <file relUrl="bin/garagium_adm.pdb" publishTime="06/14/2018 22:12:07" />
+    <file relUrl="login.aspx" publishTime="06/14/2018 21:55:47" />
     <file relUrl="Account/Web.config" publishTime="06/13/2018 19:36:45" />
     <file relUrl="Account/Login.aspx" publishTime="06/13/2018 19:36:45" />
     <file relUrl="Styles/Site.css" publishTime="06/13/2018 21:09:14" />
     <file relUrl="Scripts/jquery-1.4.1.js" publishTime="06/13/2018 19:36:45" />
-    <file relUrl="bin/garagium_adm.dll" publishTime="06/13/2018 21:09:18" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="06/13/2018 19:36:45" />
     <file relUrl="Global.asax" publishTime="06/13/2018 19:36:45" />
     <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="06/13/2018 19:36:45" />
     <file relUrl="About.aspx" publishTime="06/13/2018 19:36:45" />
     <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="06/13/2018 19:36:45" />
     <file relUrl="Default.aspx" publishTime="06/13/2018 19:36:45" />
     <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="06/13/2018 19:36:45" />
+    <file relUrl="Styles/login.css" publishTime="06/14/2018 21:54:24" />
   </publishProfile>
 </publishData>
