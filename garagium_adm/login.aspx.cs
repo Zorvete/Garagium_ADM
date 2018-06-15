@@ -21,7 +21,7 @@ namespace garagium_adm
         {
             int result = 0;
 
-            DataTable dt = Classes.Login.VerificarLogin(this.userTxt.Text, this.pwTxt.Text, out result);
+            //DataTable dt = Classes.Login.VerificarLogin(this.userTxt.Text, this.pwTxt.Text, out result);
 
             Console.Write(result);
         }

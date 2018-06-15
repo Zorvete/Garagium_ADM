@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ferreira\\Desktop\\mPlataforma\\PortalAdministracao\\Garagium_ADM\\GrgAdm.Update\\GrgAdm.Update.csproj",
-      "projectName": "GrgAdm.Update",
-      "projectPath": "C:\\Users\\Ferreira\\Desktop\\mPlataforma\\PortalAdministracao\\Garagium_ADM\\GrgAdm.Update\\GrgAdm.Update.csproj",
+      "projectUniqueName": "C:\\Users\\Ferreira\\Desktop\\mPlataforma\\PortalAdministracao\\Garagium_ADM\\GrgAdm.Dados\\GrgAdm.Dados.csproj",
+      "projectName": "GrgAdm.Dados",
+      "projectPath": "C:\\Users\\Ferreira\\Desktop\\mPlataforma\\PortalAdministracao\\Garagium_ADM\\GrgAdm.Dados\\GrgAdm.Dados.csproj",
       "packagesPath": "C:\\Users\\Ferreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ferreira\\Desktop\\mPlataforma\\PortalAdministracao\\Garagium_ADM\\GrgAdm.Update\\obj\\",
+      "outputPath": "C:\\Users\\Ferreira\\Desktop\\mPlataforma\\PortalAdministracao\\Garagium_ADM\\GrgAdm.Dados\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

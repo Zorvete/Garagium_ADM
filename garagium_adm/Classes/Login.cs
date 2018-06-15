@@ -10,7 +10,7 @@ namespace garagium_adm.Classes
 {
     public class Login
     {
-        public static DataTable VerificarLogin(string username, string password, out int id)
+        public static DataTable VerificarLoginOld(string username, string password, out int id)
         {
 
             DataTable dt = new DataTable();
@@ -38,5 +38,7 @@ namespace garagium_adm.Classes
 
             return dt;
         }
+
+ 
     }
 }
