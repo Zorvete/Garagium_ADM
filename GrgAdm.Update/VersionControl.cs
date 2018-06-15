@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GrgAdm.Update
 {
-    class VersionControl
+    public class VersionControl
     {
     }
 }

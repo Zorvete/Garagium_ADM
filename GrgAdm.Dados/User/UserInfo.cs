@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GrgAdm.Dados.User
 {
-    class UserInfo
+    public class UserInfo
     {
         public UserInfo()
         {

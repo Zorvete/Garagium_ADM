@@ -156,6 +156,16 @@
     <Content Include="Account\Web.config" />
     <Content Include="Site.Master" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GrgAdm.Dados\GrgAdm.Dados.csproj">
+      <Project>{7731db8d-7a09-4cc0-802b-a80ed1adcfd9}</Project>
+      <Name>GrgAdm.Dados</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GrgAdm.Update\GrgAdm.Update.csproj">
+      <Project>{46832695-ec48-4714-a4f8-bcfc85adc1c6}</Project>
+      <Name>GrgAdm.Update</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>

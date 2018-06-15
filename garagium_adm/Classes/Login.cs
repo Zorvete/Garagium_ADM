@@ -1,10 +1,9 @@
 ﻿using garagium_adm.Helpers;
 using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Web;
+using GrgAdm.Dados.User;
+
 
 namespace garagium_adm.Classes
 {
@@ -39,6 +38,10 @@ namespace garagium_adm.Classes
             return dt;
         }
 
- 
+        public static UserInfo VerificarLogin(string username, string password)
+        {
+
+            return new UserInfo();
+        }
     }
 }
