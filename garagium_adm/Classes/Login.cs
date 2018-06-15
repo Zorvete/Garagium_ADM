@@ -3,6 +3,7 @@ using MySql.Data.MySqlClient;
 using System;
 using System.Data;
 using GrgAdm.Dados.User;
+using garagium_adm.Helpers;
 
 
 namespace garagium_adm.Classes
@@ -41,7 +42,17 @@ namespace garagium_adm.Classes
         public static UserInfo VerificarLogin(string username, string password)
         {
 
-            return new UserInfo();
+            BaseDados bd = new BaseDados();
+            UserInfo userInfo = new UserInfo();
+
+            string sql = @"SELECT id FROM gestcom.login WHERE username = @1 AND password = @2;";
+            int id = bd.ExecNumberQuery(sql, username, password);
+
+            if (id < 1) return null;
+
+            return userInfo;
         }
+
+
     }
 }

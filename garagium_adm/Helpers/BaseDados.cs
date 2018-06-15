@@ -9,7 +9,8 @@ using System.Data;
 namespace garagium_adm.Helpers
 {
     public class BaseDados
-    {  
+    {
+
         public MySqlConnection conn { get; set; }
 
         public BaseDados()
