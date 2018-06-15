@@ -1,9 +1,0 @@
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Update\bin\Debug\netstandard2.0\GrgAdm.Update.deps.json
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Update\bin\Debug\netstandard2.0\GrgAdm.Update.dll
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Update\bin\Debug\netstandard2.0\GrgAdm.Update.pdb
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Update\obj\Debug\netstandard2.0\GrgAdm.Update.csprojResolveAssemblyReference.cache
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Update\obj\Debug\netstandard2.0\GrgAdm.Update.csproj.CoreCompileInputs.cache
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Update\obj\Debug\netstandard2.0\GrgAdm.Update.AssemblyInfoInputs.cache
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Update\obj\Debug\netstandard2.0\GrgAdm.Update.AssemblyInfo.cs
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Update\obj\Debug\netstandard2.0\GrgAdm.Update.dll
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Update\obj\Debug\netstandard2.0\GrgAdm.Update.pdb

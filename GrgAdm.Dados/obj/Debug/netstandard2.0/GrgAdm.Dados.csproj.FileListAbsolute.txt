@@ -1,9 +1,0 @@
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Dados\bin\Debug\netstandard2.0\GrgAdm.Dados.deps.json
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Dados\bin\Debug\netstandard2.0\GrgAdm.Dados.dll
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Dados\bin\Debug\netstandard2.0\GrgAdm.Dados.pdb
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Dados\obj\Debug\netstandard2.0\GrgAdm.Dados.csprojResolveAssemblyReference.cache
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Dados\obj\Debug\netstandard2.0\GrgAdm.Dados.csproj.CoreCompileInputs.cache
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Dados\obj\Debug\netstandard2.0\GrgAdm.Dados.AssemblyInfoInputs.cache
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Dados\obj\Debug\netstandard2.0\GrgAdm.Dados.AssemblyInfo.cs
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Dados\obj\Debug\netstandard2.0\GrgAdm.Dados.dll
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Dados\obj\Debug\netstandard2.0\GrgAdm.Dados.pdb
