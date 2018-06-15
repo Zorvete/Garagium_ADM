@@ -19,7 +19,11 @@ namespace garagium_adm
 
         protected void dologinBtn_Click(object sender, EventArgs e)
         {
-            //DataTable dt = new BaseDados().ExecQuery("select * from gestcom.perfis");
+            int result = 0;
+
+            DataTable dt = Classes.Login.VerificarLogin(this.userTxt.Text, this.pwTxt.Text, out result);
+
+            Console.Write(result);
         }
     }
 }
