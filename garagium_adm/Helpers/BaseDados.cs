@@ -58,6 +58,77 @@ namespace garagium_adm.Helpers
             return dt;
         }
 
+        public void ExecNonQuery(string sql)
+        {
+            conn.Open();
+
+            MySqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = sql;
+
+            cmd.ExecuteNonQuery();          
+        }
+
+        public void ExecNonQuery(string sql, params object[] parametros)
+        {
+            conn.Open();
+
+            MySqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = sql;
+
+            for (int i = 0; i < parametros.Length; i++)
+                cmd.Parameters.AddWithValue("@" + i, parametros[i]);
+
+            cmd.ExecuteNonQuery();
+        }
+
+        public int ExecNumberQuery(string sql)
+        {
+            conn.Open();
+
+            MySqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = sql;
+
+            cmd.ExecuteNonQuery();
+
+            return Convert.ToInt32(cmd.ExecuteScalar() + "");
+        }
+
+        public int ExecNumberQuery(string sql, params object[] parametros)
+        {
+            conn.Open();
+
+            MySqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = sql;
+
+            for (int i = 0; i < parametros.Length; i++)
+                cmd.Parameters.AddWithValue("@" + i, parametros[i]);
+
+            return Convert.ToInt32(cmd.ExecuteScalar() + "");
+        }
+
+        public string ExecStringQuery(string sql)
+        {
+            conn.Open();
+
+            MySqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = sql;
+
+            return cmd.ExecuteScalar().ToString();
+        }
+
+        public string ExecStringQuery(string sql, params object[] parametros)
+        {
+            conn.Open();
+
+            MySqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = sql;
+
+            for (int i = 0; i < parametros.Length; i++)
+                cmd.Parameters.AddWithValue("@" + i, parametros[i]);
+
+            return cmd.ExecuteScalar().ToString();
+        }
+
 
     }
 }
