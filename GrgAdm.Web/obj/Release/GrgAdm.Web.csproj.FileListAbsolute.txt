@@ -1,5 +1,3 @@
-C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\garagium_adm.dll
-C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\garagium_adm.pdb
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Dados.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Update.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\MySql.Data.dll
@@ -10,5 +8,7 @@ C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\MySql.Data.xml
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.csprojResolveAssemblyReference.cache
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.csproj.CoreCompileInputs.cache
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.csproj.CopyComplete
-C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\garagium_adm.dll
-C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\garagium_adm.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Web.dll
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Web.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.dll
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.pdb

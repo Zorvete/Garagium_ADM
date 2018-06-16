@@ -1,5 +1,4 @@
 ﻿using garagium_adm.Helpers;
-using MySql.Data.MySqlClient;
 using System;
 using System.Data;
 using GrgAdm.Dados.User;
