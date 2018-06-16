@@ -3,7 +3,6 @@ using MySql.Data.MySqlClient;
 using System;
 using System.Data;
 using GrgAdm.Dados.User;
-using garagium_adm.Helpers;
 
 
 namespace garagium_adm.Classes
@@ -17,10 +16,13 @@ namespace garagium_adm.Classes
             BaseDados bd = new BaseDados();
             UserInfo userInfo = new UserInfo();
 
-            string sql = @"SELECT id FROM gestcom.login WHERE username = @1 AND password = @2;";
-            int id = bd.ExecNumberQuery(sql, username, password);
+            string sql = @"SELECT IFNULL(id, -1) FROM gestcom.login WHERE username = @1 AND password = @2;";
 
-            if (id < 1) throw new Exception("");
+            int id;
+            try { id = bd.ExecNumberQuery(sql, username, password); }
+            catch { id = -1; }
+            
+            if (id < 1) throw new Exception("Dados de Login Incorretos!");
 
             sql = @"SELECT bloqueado FROM gestcom.login WHERE id = @1;";
 
@@ -31,8 +33,8 @@ namespace garagium_adm.Classes
                 sql = @"SELECT bloqueio_data as data, bloqueio_motivo as motivo FROM gestcom.login WHERE id = @1;";
                 DataTable dt = bd.ExecQuery(sql, id);
 
-                string exp = "Utilizador bloqueado em: " + (String.IsNullOrEmpty(dt.Rows[0]["data"] + "") ? "---" : dt.Rows[0]["data"].ToString()) + "\n" +
-                            "Motivo: " + (String.IsNullOrEmpty(dt.Rows[0]["motivo"] + "") ? "---" : dt.Rows[0]["motivo"].ToString());
+                string exp = "<b>Utilizador bloqueado</b> em: " + (String.IsNullOrEmpty(dt.Rows[0]["data"] + "") ? "---" : dt.Rows[0]["data"].ToString()) + "<br />" +
+                            "<b>Motivo: </b>" + (String.IsNullOrEmpty(dt.Rows[0]["motivo"] + "") ? "---" : dt.Rows[0]["motivo"].ToString());
 
                 throw new Exception(exp);
             }

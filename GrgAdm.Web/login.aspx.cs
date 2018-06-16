@@ -15,7 +15,10 @@ namespace garagium_adm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+            if (!Page.IsPostBack)
+            {
+                
+            }
         }
 
         protected void dologinBtn_Click(object sender, EventArgs e)
@@ -53,7 +56,8 @@ namespace garagium_adm
             }
             catch (Exception ex)
             {
-               //TODO: Mostrar modal com as mensagens das exceptions
+                this.errorMsg.Text = ex.Message;
+                this.errorMsg.Visible = true;
             }
         }
     }

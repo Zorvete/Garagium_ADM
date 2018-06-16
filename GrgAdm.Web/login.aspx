@@ -3,10 +3,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html >
 <head>
-  <meta charset="UTF-8" />
-  <title>PinTelele - Login</title>
+  <meta charset="UTF-8" content="" />
+    <title>Garagium.Adm - Login</title>
 
     <link rel="stylesheet" href="Styles/login.css" />
+    <link rel="stylesheet" href="Styles/modal.css" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps."/>
@@ -19,6 +20,7 @@
   </head>
 
 <body>
+
     <div class="login-page">
         <div class="form">
             <form runat="server" class="login-form">
@@ -26,6 +28,7 @@
                 <asp:TextBox ID="pwTxt" runat="server" placeholder="Password" CssClass="input" TextMode="Password" />
                 <asp:Button ID="dologinBtn" runat="server" Text="Entrar" CssClass="button" 
                     style="background-color: #4CAF50; color: #fff" onclick="dologinBtn_Click"/>
+                <asp:Label ID="errorMsg" runat="server" style="font-size: 14px; margin-top: 30px; color: red;" Visible="false"/>
             </form>
         </div>
     </div>
@@ -33,7 +36,7 @@
 <script type="text/javascript">	    
     $('.message a').click(function () {
 	    $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
-	});
+    });
 </script>
 
 </body>

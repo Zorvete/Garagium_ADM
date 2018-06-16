@@ -66,6 +66,7 @@
     <Content Include="About.aspx" />
     <Content Include="login.aspx" />
     <Content Include="Styles\login.css" />
+    <Content Include="Styles\modal.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />

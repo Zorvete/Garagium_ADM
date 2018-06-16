@@ -3,3 +3,8 @@ C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\GrgAdm.Up
 C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\GrgAdm.Update\obj\Debug\GrgAdm.Update.csproj.CoreCompileInputs.cache
 C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\GrgAdm.Update\obj\Debug\GrgAdm.Update.dll
 C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\GrgAdm.Update\obj\Debug\GrgAdm.Update.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Debug\GrgAdm.Update.dll
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Debug\GrgAdm.Update.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\obj\Debug\GrgAdm.Update.csproj.CoreCompileInputs.cache
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\obj\Debug\GrgAdm.Update.dll
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\obj\Debug\GrgAdm.Update.pdb
