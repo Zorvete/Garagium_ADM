@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using garagium_adm.Helpers;
 using System.Data;
 using GrgAdm.Dados.User;
+using System.Web.Security;
 
 namespace garagium_adm
 {
@@ -40,12 +41,19 @@ namespace garagium_adm
                     throw new Exception("Utilizador não tem informações!");
 
                 SessionManager.userInfo = userInfo;
+             
+                HttpContext.Current.Session.Add("usId", SessionManager.userInfo.id + "");
+
+                FormsAuthenticationTicket authTicket = new FormsAuthenticationTicket(1, SessionManager.userInfo.username, DateTime.Now, DateTime.Now.AddMinutes(120), false, SessionManager.userInfo.username);
+                string encryptedTicket = FormsAuthentication.Encrypt(authTicket);
+                HttpCookie authCookie = new HttpCookie(FormsAuthentication.FormsCookieName, encryptedTicket);
+                Response.Cookies.Add(authCookie);
 
                 Response.Redirect("Default.aspx", false);
             }
             catch (Exception ex)
             {
-
+               
             }
         }
     }

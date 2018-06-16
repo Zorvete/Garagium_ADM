@@ -37,6 +37,7 @@ namespace garagium_adm.Helpers
             dt.Load(reader);
 
             reader.Close();
+            conn.Close();
             return dt;
         }
 
@@ -48,13 +49,14 @@ namespace garagium_adm.Helpers
             cmd.CommandText = sql;
 
             for (int i = 0; i < parametros.Length; i++)
-                cmd.Parameters.AddWithValue("@" + i + 1, parametros[i]);
+                cmd.Parameters.AddWithValue("@" + (i + 1), parametros[i]);
 
             MySqlDataReader reader = cmd.ExecuteReader();
             
             DataTable dt = new DataTable();
             dt.Load(reader);     
             reader.Close();
+            conn.Close();
 
             return dt;
         }
@@ -66,7 +68,9 @@ namespace garagium_adm.Helpers
             MySqlCommand cmd = conn.CreateCommand();
             cmd.CommandText = sql;
 
-            cmd.ExecuteNonQuery();          
+            cmd.ExecuteNonQuery();
+
+            conn.Close();
         }
 
         public void ExecNonQuery(string sql, params object[] parametros)
@@ -77,9 +81,10 @@ namespace garagium_adm.Helpers
             cmd.CommandText = sql;
 
             for (int i = 0; i < parametros.Length; i++)
-                cmd.Parameters.AddWithValue("@" + i + 1, parametros[i]);
+                cmd.Parameters.AddWithValue("@" + (i + 1), parametros[i]);
 
             cmd.ExecuteNonQuery();
+            conn.Close();
         }
 
         public int ExecNumberQuery(string sql)
@@ -89,9 +94,10 @@ namespace garagium_adm.Helpers
             MySqlCommand cmd = conn.CreateCommand();
             cmd.CommandText = sql;
 
-            cmd.ExecuteNonQuery();
+            int val = Convert.ToInt32(cmd.ExecuteScalar() + "");
 
-            return Convert.ToInt32(cmd.ExecuteScalar() + "");
+            conn.Close();
+            return val;
         }
 
         public int ExecNumberQuery(string sql, params object[] parametros)
@@ -103,7 +109,11 @@ namespace garagium_adm.Helpers
 
             for (int i = 0; i < parametros.Length; i++)
                 cmd.Parameters.AddWithValue("@" +( i + 1), parametros[i]);
-            return Convert.ToInt32(cmd.ExecuteScalar() + "");
+
+            int val = Convert.ToInt32(cmd.ExecuteScalar() + "");
+
+            conn.Close();
+            return val;
                 
         }
 
@@ -114,7 +124,11 @@ namespace garagium_adm.Helpers
             MySqlCommand cmd = conn.CreateCommand();
             cmd.CommandText = sql;
 
-            return cmd.ExecuteScalar().ToString();
+            string val = cmd.ExecuteScalar().ToString();
+
+            conn.Close();
+
+            return val;
         }
 
         public string ExecStringQuery(string sql, params object[] parametros)
@@ -125,9 +139,13 @@ namespace garagium_adm.Helpers
             cmd.CommandText = sql;
 
             for (int i = 0; i < parametros.Length; i++)
-                cmd.Parameters.AddWithValue("@" + i + 1, parametros[i]);
+                cmd.Parameters.AddWithValue("@" + (i + 1), parametros[i]);
 
-            return cmd.ExecuteScalar().ToString();
+            string val = cmd.ExecuteScalar().ToString();
+
+            conn.Close();
+
+            return val;
         }
 
 
