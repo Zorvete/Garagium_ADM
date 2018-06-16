@@ -1,6 +1,5 @@
 C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\GrgAdm.Dados\bin\Debug\GrgAdm.Dados.dll
 C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\GrgAdm.Dados\bin\Debug\GrgAdm.Dados.pdb
-C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\GrgAdm.Dados\obj\Debug\GrgAdm.Dados.csprojResolveAssemblyReference.cache
 C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\GrgAdm.Dados\obj\Debug\GrgAdm.Dados.csproj.CoreCompileInputs.cache
 C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\GrgAdm.Dados\obj\Debug\GrgAdm.Dados.dll
 C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\GrgAdm.Dados\obj\Debug\GrgAdm.Dados.pdb

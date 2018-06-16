@@ -12,3 +12,17 @@ C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\garagium_
 C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\garagium_adm\bin\GrgAdm.Dados.pdb
 C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\garagium_adm\bin\GrgAdm.Update.pdb
 C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\garagium_adm\garagium_adm\obj\Debug\GrgAdm.Web.csprojResolveAssemblyReference.cache
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\bin\garagium_adm.dll
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\bin\garagium_adm.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Dados.dll
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Update.dll
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\bin\MySql.Data.dll
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\bin\Google.Protobuf.dll
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Dados.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Update.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\bin\MySql.Data.xml
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\obj\Debug\GrgAdm.Web.csprojResolveAssemblyReference.cache
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\obj\Debug\GrgAdm.Web.csproj.CoreCompileInputs.cache
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\obj\Debug\GrgAdm.Web.csproj.CopyComplete
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\obj\Debug\garagium_adm.dll
+C:\Users\Ferreira\Desktop\mPlataforma\PortalAdministracao\Garagium_ADM\GrgAdm.Web\obj\Debug\garagium_adm.pdb
