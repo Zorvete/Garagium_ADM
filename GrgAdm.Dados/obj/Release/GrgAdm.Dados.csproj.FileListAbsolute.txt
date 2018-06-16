@@ -3,3 +3,4 @@ C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\bin\Release\GrgA
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\obj\Release\GrgAdm.Dados.csproj.CoreCompileInputs.cache
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\obj\Release\GrgAdm.Dados.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\obj\Release\GrgAdm.Dados.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\obj\Release\GrgAdm.Dados.csprojResolveAssemblyReference.cache

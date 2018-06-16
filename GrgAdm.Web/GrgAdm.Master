@@ -1,20 +1,31 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GrgAdm.master.cs" Inherits="GrgAdm.Web.GrgAdm" %>
-
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
 <!DOCTYPE html>
 
 <html>
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    <title>Garagium - </title>
+    
+    <link rel="stylesheet" href="./App_Themes/Geral/Styles/modal.css" type="text/css"/>
+    <link rel="stylesheet" href="./App_Themes/Geral/Styles/Main.css" type="text/css"/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Garagium" />
+    <meta name="msapplication-TileColor" content="#3372DF" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-    </form>
+    <div class="container" />
+        
+    
 </body>
 </html>

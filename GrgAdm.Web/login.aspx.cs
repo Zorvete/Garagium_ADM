@@ -52,7 +52,7 @@ namespace garagium_adm
                 HttpCookie authCookie = new HttpCookie(FormsAuthentication.FormsCookieName, encryptedTicket);
                 Response.Cookies.Add(authCookie);
 
-                Response.Redirect("Default.aspx", false);
+                Response.Redirect("Index.aspx", false);
             }
             catch (Exception ex)
             {

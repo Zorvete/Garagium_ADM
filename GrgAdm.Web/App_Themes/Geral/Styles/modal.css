@@ -1,0 +1,69 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+.modal_container {
+    display: table;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+
+.modal_position {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background-color: #cc0000;
+    justify-content: center;
+    border-bottom: 2px #4d0000 solid;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.7);
+}
+
+.modal_title {
+    position: inherit;
+    top: 10px;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.modal_text {
+    position: inherit;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.modal_buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal_button {
+    border: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(77, 0, 0, 0.5);
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    float: right;
+}

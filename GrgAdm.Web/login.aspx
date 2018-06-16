@@ -6,8 +6,8 @@
   <meta charset="UTF-8" content="" />
     <title>Garagium.Adm - Login</title>
 
-    <link rel="stylesheet" href="Styles/login.css" />
-    <link rel="stylesheet" href="Styles/modal.css" />
+    <link rel="stylesheet" href="./App_Themes/Geral/Styles/modal.css" type="text/css"/>
+    <link rel="stylesheet" href="./App_Themes/Geral/Styles/login.css" type="text/css"/>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps."/>
