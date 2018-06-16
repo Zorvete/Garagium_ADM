@@ -99,7 +99,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\ASPUtils.cs" />
     <Compile Include="Helpers\BaseDados.cs" />
+    <Compile Include="Helpers\JSON.cs" />
+    <Compile Include="Helpers\SessionManager.cs" />
     <Compile Include="Helpers\UtilsEx.cs" />
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
