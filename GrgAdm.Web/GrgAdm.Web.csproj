@@ -68,6 +68,8 @@
   <ItemGroup>
     <Content Include="App_Themes\Geral\Images\background-repeat.png" />
     <Content Include="App_Themes\Geral\Images\logo.png" />
+    <Content Include="App_Themes\Geral\Styles\items.css" />
+    <Content Include="App_Themes\Geral\Styles\menus.css" />
     <Content Include="App_Themes\Geral\Styles\modal.css" />
     <Content Include="Index.aspx" />
     <Content Include="login.aspx" />
@@ -79,6 +81,7 @@
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\menus.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
