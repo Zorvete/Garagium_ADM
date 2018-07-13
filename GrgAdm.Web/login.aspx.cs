@@ -17,7 +17,7 @@ namespace garagium_adm
         {
             if (!Page.IsPostBack)
             {
-                
+                throw new Exception("Redirect");
             }
         }
 

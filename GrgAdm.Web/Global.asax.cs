@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GrgAdm.Web.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -24,8 +25,21 @@ namespace garagium_adm
 
         void Application_Error(object sender, EventArgs e)
         {
-            // Code that runs when an unhandled error occurs
+            try
+            {
+                Exception ex = Server.GetLastError();
+                Server.ClearError();
 
+                UtilsEx.Log(ex, "Erro Não tratado!");
+            }
+            catch(Exception ex)
+            {
+                UtilsEx.Log(ex);
+            }
+            finally
+            {
+                Response.Redirect("~/Error404.html");
+            }          
         }
 
         void Session_Start(object sender, EventArgs e)

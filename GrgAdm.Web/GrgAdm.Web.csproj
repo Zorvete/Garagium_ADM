@@ -75,6 +75,10 @@
     <Content Include="App_Themes\Geral\Styles\Header.css" />
     <Content Include="App_Themes\Geral\Styles\items.css" />
     <Content Include="App_Themes\Geral\Styles\modal.css" />
+    <Content Include="App_Themes\Geral\Styles\Page404Error.css" />
+    <Content Include="Error404.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Index.aspx" />
     <Content Include="login.aspx" />
     <Content Include="Scripts\jquery-ui.min.js" />
