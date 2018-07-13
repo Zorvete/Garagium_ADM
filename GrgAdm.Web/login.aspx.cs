@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using garagium_adm.Helpers;
 using System.Data;
-using GrgAdm.Dados.User;
+using GrgAdm.Dados.Classes;
 using System.Web.Security;
 
 namespace garagium_adm
@@ -38,7 +38,7 @@ namespace garagium_adm
                     return;
                 }
 
-                UserInfo userInfo = Classes.Login.VerificarLogin(user, pw);
+                UserInfo userInfo = GrgAdm.Dados.Login.VerificarLogin(user, pw);
 
                 if(userInfo == null)                
                     throw new Exception("Utilizador não tem informações!");

@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Configuration;
 using MySql.Data.MySqlClient;
 using System.Data;
 
-namespace garagium_adm.Helpers
+namespace GrgAdm.Dados.Helpers
 {
     public class BaseDados
     {
@@ -15,9 +11,7 @@ namespace garagium_adm.Helpers
 
         public BaseDados()
         {
-            string connString = ConfigurationManager.ConnectionStrings["gestcomBD"].ConnectionString;
-
-            this.conn = new MySqlConnection(connString);
+            this.conn = Connections.GestComBD;
         }
 
         public BaseDados(string ConnectionString)

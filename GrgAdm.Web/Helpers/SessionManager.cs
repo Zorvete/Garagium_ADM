@@ -1,4 +1,4 @@
-﻿using GrgAdm.Dados.User;
+﻿using GrgAdm.Dados.Classes;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,10 +1,10 @@
-﻿using garagium_adm.Helpers;
+﻿using GrgAdm.Dados.Helpers;
 using System;
 using System.Data;
-using GrgAdm.Dados.User;
+using GrgAdm.Dados.Classes;
 
 
-namespace GrgAdm.Web.Classes
+namespace GrgAdm.Dados
 {
     public class Login
     {
@@ -68,7 +68,7 @@ namespace GrgAdm.Web.Classes
             return info;
         }
 
-        public static void IncrementNumAcessos(int id)
+        private static void IncrementNumAcessos(int id)
         {
             BaseDados bd = new BaseDados();
 

@@ -1,6 +1,9 @@
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\obj\Release\GrgAdm.Dados.csproj.CoreCompileInputs.cache
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\bin\Release\GrgAdm.Dados.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\bin\Release\GrgAdm.Dados.pdb
-C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\obj\Release\GrgAdm.Dados.csproj.CoreCompileInputs.cache
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\bin\Release\MySql.Data.dll
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\bin\Release\Google.Protobuf.dll
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\bin\Release\MySql.Data.xml
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\obj\Release\GrgAdm.Dados.csproj.CopyComplete
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\obj\Release\GrgAdm.Dados.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\obj\Release\GrgAdm.Dados.pdb
-C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Dados\obj\Release\GrgAdm.Dados.csprojResolveAssemblyReference.cache

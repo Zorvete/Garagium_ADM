@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GrgAdm.Dados.User
+namespace GrgAdm.Dados.Classes
 {
     public class UserInfo
     {
