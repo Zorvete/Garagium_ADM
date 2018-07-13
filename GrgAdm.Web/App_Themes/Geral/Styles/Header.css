@@ -1,0 +1,86 @@
+﻿.headerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    width: 100%;
+    height: 200px;
+    background: #d0d0d0;
+}
+
+.headerTopBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #34495e;
+    width: 100%;
+    height: 40px;
+}
+
+.icons {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.Texts {
+    color: white;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.Texts:link {
+    text-decoration: none;
+}
+
+.headerLeftPanel {
+    position: inherit;
+    left: 0;
+    width: auto;
+    height: 100%;
+    background: #ffd800;
+}
+
+.headerRightPanel {
+    position: inherit;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #4cff00;
+}
+
+.headerTopBarUserName {
+    position: absolute;
+    display: flex;
+    width: auto;
+    height: 100%;
+    margin-top: auto;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.headerTopBarAlerts {
+    position: absolute;
+    display: flex;
+    width: auto;
+    height: 100%;
+    margin-top: auto;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.headerTopBarSair {
+    position: absolute;
+    right: 0;
+    display: flex;
+    width: auto;
+    height: 100%;
+    margin-top: auto;
+    margin-right: 20px;
+    align-items: center;
+}
+
+
+
+
+

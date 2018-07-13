@@ -15,7 +15,7 @@ namespace GrgAdm.Dados
             BaseDados bd = new BaseDados();
             UserInfo userInfo = new UserInfo();
 
-            string sql = @"SELECT IFNULL(id, -1) FROM gestcom.login WHERE username = @1 AND password = @2;";
+            string sql = @"SELECT IFNULL(id, -1) FROM login WHERE username = @1 AND password = @2;";
 
             int id;
             try { id = bd.ExecNumberQuery(sql, username, password); }
@@ -23,13 +23,13 @@ namespace GrgAdm.Dados
             
             if (id < 1) throw new Exception("Dados de Login Incorretos!");
 
-            sql = @"SELECT bloqueado FROM gestcom.login WHERE id = @1;";
+            sql = @"SELECT bloqueado FROM login WHERE id = @1;";
 
             int bloqueado = bd.ExecNumberQuery(sql, id);
 
             if(bloqueado != 0)
             {
-                sql = @"SELECT bloqueio_data as data, bloqueio_motivo as motivo FROM gestcom.login WHERE id = @1;";
+                sql = @"SELECT bloqueio_data as data, bloqueio_motivo as motivo FROM login WHERE id = @1;";
                 DataTable dt = bd.ExecQuery(sql, id);
 
                 string exp = "<b>Utilizador bloqueado</b> em: " + (String.IsNullOrEmpty(dt.Rows[0]["data"] + "") ? "---" : dt.Rows[0]["data"].ToString()) + "<br />" +
@@ -51,7 +51,7 @@ namespace GrgAdm.Dados
         {
             BaseDados bd = new BaseDados();
 
-            string sql = @"SELECT id, username, codigo, perfil, Nome, n_acessos, criacao_data FROM gestcom.login WHERE id = @1;";
+            string sql = @"SELECT id, username, codigo, perfil, Nome, n_acessos, criacao_data FROM login WHERE id = @1;";
 
             DataTable dt = bd.ExecQuery(sql, id);
 
@@ -72,10 +72,10 @@ namespace GrgAdm.Dados
         {
             BaseDados bd = new BaseDados();
 
-            string sql = @"SELECT n_acessos FROM gestcom.login WHERE id = @1;";
+            string sql = @"SELECT n_acessos FROM login WHERE id = @1;";
             int n_acess = bd.ExecNumberQuery(sql, id) + 1;
 
-            sql = @"UPDATE gestcom.login SET n_acessos = @2 WHERE id = @1;";
+            sql = @"UPDATE login SET n_acessos = @2 WHERE id = @1;";
             bd.ExecNonQuery(sql, id, n_acess);
         }
 

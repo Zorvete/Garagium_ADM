@@ -19,13 +19,18 @@ namespace GrgAdm.Dados.Helpers
             this.conn = new MySqlConnection(ConnectionString);
         }
 
+        private static string AppendBD(string sql) {
+            return string.Format("use {0}; {1}", Connections.BDName, sql);
+        }
+
         public DataTable ExecQuery(string sql)
         {
             conn.Open();
 
-            MySqlCommand command = conn.CreateCommand();
-            command.CommandText = sql;
-            MySqlDataReader reader = command.ExecuteReader();
+            MySqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = AppendBD(sql);
+
+            MySqlDataReader reader = cmd.ExecuteReader();
 
             DataTable dt = new DataTable();
             dt.Load(reader);
@@ -40,7 +45,7 @@ namespace GrgAdm.Dados.Helpers
             conn.Open();
 
             MySqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = sql;
+            cmd.CommandText = AppendBD(sql);
 
             for (int i = 0; i < parametros.Length; i++)
                 cmd.Parameters.AddWithValue("@" + (i + 1), parametros[i]);
@@ -60,7 +65,7 @@ namespace GrgAdm.Dados.Helpers
             conn.Open();
 
             MySqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = sql;
+            cmd.CommandText = AppendBD(sql);
 
             cmd.ExecuteNonQuery();
 
@@ -72,7 +77,7 @@ namespace GrgAdm.Dados.Helpers
             conn.Open();
 
             MySqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = sql;
+            cmd.CommandText = AppendBD(sql);
 
             for (int i = 0; i < parametros.Length; i++)
                 cmd.Parameters.AddWithValue("@" + (i + 1), parametros[i]);
@@ -86,7 +91,7 @@ namespace GrgAdm.Dados.Helpers
             conn.Open();
 
             MySqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = sql;
+            cmd.CommandText = AppendBD(sql);
 
             int val = Convert.ToInt32(cmd.ExecuteScalar() + "");
 
@@ -99,7 +104,7 @@ namespace GrgAdm.Dados.Helpers
             conn.Open();
 
             MySqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = sql;
+            cmd.CommandText = AppendBD(sql);
 
             for (int i = 0; i < parametros.Length; i++)
                 cmd.Parameters.AddWithValue("@" +( i + 1), parametros[i]);
@@ -116,7 +121,7 @@ namespace GrgAdm.Dados.Helpers
             conn.Open();
 
             MySqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = sql;
+            cmd.CommandText = AppendBD(sql);
 
             string val = cmd.ExecuteScalar().ToString();
 
@@ -130,7 +135,7 @@ namespace GrgAdm.Dados.Helpers
             conn.Open();
 
             MySqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = sql;
+            cmd.CommandText = AppendBD(sql);
 
             for (int i = 0; i < parametros.Length; i++)
                 cmd.Parameters.AddWithValue("@" + (i + 1), parametros[i]);

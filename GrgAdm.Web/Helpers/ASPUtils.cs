@@ -9,7 +9,7 @@ using System.Net;
 using System.Text;
 using System.Web;
 
-namespace garagium_adm.Helpers
+namespace GrgAdm.Web.Helpers
 {
     
     public static class ASPUtils
@@ -640,7 +640,7 @@ namespace garagium_adm.Helpers
                 }
                 catch (Exception ex)
                 {
-                    UtilsEx.DumpEX(ex);
+                    UtilsEx.Log(ex);
                     return "";
                 }
             }
@@ -651,7 +651,7 @@ namespace garagium_adm.Helpers
             }
             catch (Exception ex)
             {
-                UtilsEx.DumpEX(ex);
+                UtilsEx.Log(ex);
                 return "";
             }
 
@@ -691,7 +691,7 @@ namespace garagium_adm.Helpers
             }
             catch (Exception ex)
             {
-                UtilsEx.DumpEX(ex);
+                UtilsEx.Log(ex);
             }
         }
 
@@ -951,7 +951,7 @@ namespace garagium_adm.Helpers
                 }
                 catch (Exception ex)
                 {
-                    UtilsEx.DumpEX(ex);
+                    UtilsEx.Log(ex);
                     throw;
                 }
             }
@@ -973,7 +973,7 @@ namespace garagium_adm.Helpers
             }
             catch (Exception ex)
             {
-                UtilsEx.DumpEX(ex);
+                UtilsEx.Log(ex);
                 throw;
             }
         }

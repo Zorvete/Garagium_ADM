@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Script.Serialization;
 
-namespace garagium_adm.Helpers
+namespace GrgAdm.Web.Helpers
 {
     public static class JSON
     {

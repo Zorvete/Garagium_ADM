@@ -16,11 +16,8 @@
 
     <title>Garagium - </title>
     
-    <link rel="stylesheet" href="./App_Themes/Geral/Styles/modal.css" type="text/css"/>
-    <link rel="stylesheet" href="./App_Themes/Geral/Styles/Main.css" type="text/css"/>
-    <link rel="stylesheet" href="./App_Themes/Geral/Styles/menus.css">
-   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-   <script src="./Scripts/menus.js"  type="text/javascript"></script>
+       <link rel="stylesheet" href="./App_Themes/Geral/Styles/css.css" type="text/css"/>
+       <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
     
 
@@ -28,8 +25,21 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <div class="container"  />
-        
-    
+    <div class="container" >
+        <div class="headerContainer">    
+            <div class="headerTopBar">
+                
+                <div class="headerTopBarUserName">      
+                    <asp:Image runat="server" ID="imgUser" ImageUrl="~/App_Themes/Geral/Images/Icons/avatar.png" CssClass="icons" />
+                    <asp:Label runat="server" ID="LblUserWelcome" CssClass="Texts">Bem vindo, <% =GrgAdm.Web.Helpers.SessionManager.userInfo.Nome %></asp:Label>          
+                </div>
+                    
+                <div class="headerTopBarSair">      
+                    <asp:Image runat="server" ID="imgSair" ImageUrl="~/App_Themes/Geral/Images/Icons/exit.png" CssClass="icons" />
+                    <asp:Label runat="server" ID="LblSair" Text="Sair" CssClass="Texts"/>              
+                </div>              
+            </div>
+        </div>
+    </div>    
 </body>
 </html>

@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.SessionState;
 using System.Web.UI;
 
-namespace garagium_adm.Helpers
+namespace GrgAdm.Web.Helpers
 {
     public class SessionManager
     {
