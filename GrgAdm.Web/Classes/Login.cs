@@ -4,7 +4,7 @@ using System.Data;
 using GrgAdm.Dados.User;
 
 
-namespace garagium_adm.Classes
+namespace GrgAdm.Web.Classes
 {
     public class Login
     {

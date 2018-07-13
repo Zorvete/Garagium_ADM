@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GrgAdm.Update
 {
-    class Update
+    public class Update
     {
+
     }
 }

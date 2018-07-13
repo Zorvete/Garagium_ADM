@@ -8,5 +8,8 @@ namespace GrgAdm.Update
 {
     public class VersionControl
     {
+        public static void AtualizarBD()
+        {
+        }
     }
 }
