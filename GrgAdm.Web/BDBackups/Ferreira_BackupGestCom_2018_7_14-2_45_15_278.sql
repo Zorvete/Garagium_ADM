@@ -1,5 +1,5 @@
 -- MySqlBackup.NET 2.0.12
--- Dump Time: 2018-07-14 01:42:10
+-- Dump Time: 2018-07-14 02:45:20
 -- --------------------------------------
 -- Server version 5.5.54-0ubuntu0.12.04.1 (Ubuntu)
 
@@ -13,6 +13,27 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+
+-- 
+-- Definition of atualizacao
+-- 
+
+DROP TABLE IF EXISTS `atualizacao`;
+CREATE TABLE IF NOT EXISTS `atualizacao` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `VersaoRelease` int(11) NOT NULL DEFAULT '0',
+  `VersaoUpdate` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+-- 
+-- Dumping data for table atualizacao
+-- 
+
+/*!40000 ALTER TABLE `atualizacao` DISABLE KEYS */;
+INSERT INTO `atualizacao`(`id`,`VersaoRelease`,`VersaoUpdate`) VALUES
+(1,0,0);
+/*!40000 ALTER TABLE `atualizacao` ENABLE KEYS */;
 
 -- 
 -- Definition of login
@@ -45,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `login` (
 
 /*!40000 ALTER TABLE `login` DISABLE KEYS */;
 INSERT INTO `login`(`id`,`username`,`password`,`codigo`,`perfil`,`Nome`,`n_acessos`,`bloqueio_motivo`,`bloqueio_data`,`criacao_data`,`bloqueado`) VALUES
-(3,'1','1',1,1,'Jorge',2,NULL,NULL,'2018-07-13 21:56:26',0);
+(3,'1','1',1,1,'Jorge',4,NULL,NULL,'2018-07-13 21:56:26',0);
 /*!40000 ALTER TABLE `login` ENABLE KEYS */;
 
 -- 
@@ -79,5 +100,5 @@ INSERT INTO `perfis`(`id`,`descricao`,`ativo`) VALUES
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 
--- Dump completed on 2018-07-14 01:42:14
--- Total time: 0:0:0:3:259 (d:h:m:s:ms)
+-- Dump completed on 2018-07-14 02:45:22
+-- Total time: 0:0:0:2:618 (d:h:m:s:ms)

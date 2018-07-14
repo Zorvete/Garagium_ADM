@@ -55,7 +55,7 @@ namespace GrgAdm.Utils
                 Directory.CreateDirectory(path);
 
             
-            string file = path + "\\" + string.Format("ErrorLog_{0}_{1}_{2}-{3}_{4}_{5}_{6}.log", DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second, DateTime.Now.Millisecond);
+            string file = path + "\\" + string.Format("{7}_ErrorLog_{0}_{1}_{2}-{3}_{4}_{5}_{6}.log", DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second, DateTime.Now.Millisecond, Environment.UserName);
             using (StreamWriter sw = new StreamWriter(file, true))
             {
                 sw.WriteLine("Relatorio de Erro Garagium Adm");

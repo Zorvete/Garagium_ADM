@@ -8,11 +8,14 @@ namespace GrgAdm.Web
 
         void Application_Start(object sender, EventArgs e)
         {
-            GrgAdm.Utils.UtilsEx.PastaLogs = ConfigurationManager.AppSettings["PathLogs"].ToString();
+            string raiz = ConfigurationManager.AppSettings["PathRaiz"].ToString();
 
-            GrgAdm.Update.Update.PathBackups = ConfigurationManager.AppSettings["PathBackups"].ToString();
+            GrgAdm.Utils.UtilsEx.PastaLogs = raiz + ConfigurationManager.AppSettings["PathLogs"].ToString();
+
+            GrgAdm.Update.Update.PathScripts = raiz + ConfigurationManager.AppSettings["PathScripts"].ToString();
+            GrgAdm.Update.Update.PathBackups = raiz + ConfigurationManager.AppSettings["PathBackups"].ToString();
+
             GrgAdm.Update.Update.AtualizarBD();
- 
         }
 
         void Application_End(object sender, EventArgs e)

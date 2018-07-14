@@ -17,3 +17,4 @@ C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\MySql.Data.xml
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.csproj.CopyComplete
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\Scripts\src1.sql

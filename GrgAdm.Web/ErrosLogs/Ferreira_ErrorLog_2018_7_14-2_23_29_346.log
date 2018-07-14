@@ -1,0 +1,24 @@
+Relatorio de Erro Garagium Adm
+---------------------------------------------------------
+Data: 14/07/2018
+Hora: 02:23
+---------------------------------------------------------
+Mensagem Erro: Unable to connect to any of the specified MySQL hosts.;
+Causa do Erro: MySql.Data;
+Metodo: Void Open();
+Inner Exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   em MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   em MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.NativeDriver.Open();
+---------------------
+StackTrace:
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em GrgAdm.Update.Update.BackupBaseDados() em C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\Update.cs:line 45
+---------------------------------------------------------
