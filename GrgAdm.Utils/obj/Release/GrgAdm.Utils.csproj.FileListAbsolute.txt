@@ -7,3 +7,4 @@ C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Utils\obj\Release\GrgA
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Utils\obj\Release\GrgAdm.Utils.csproj.CopyComplete
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Utils\obj\Release\GrgAdm.Utils.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Utils\obj\Release\GrgAdm.Utils.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Utils\obj\Release\GrgAdm.Utils.csprojResolveAssemblyReference.cache

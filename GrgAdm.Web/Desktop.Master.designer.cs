@@ -22,6 +22,15 @@ namespace GrgAdm.Web {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
         
         /// <summary>
+        /// Controle form1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        
+        /// <summary>
         /// Controle imgUser.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,42 @@ namespace GrgAdm.Web {
         protected global::System.Web.UI.WebControls.Label LblUserWelcome;
         
         /// <summary>
+        /// Controle imgAlertaCount.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgAlertaCount;
+        
+        /// <summary>
+        /// Controle LblAlertasCount.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblAlertasCount;
+        
+        /// <summary>
+        /// Controle imgMsgCount.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgMsgCount;
+        
+        /// <summary>
+        /// Controle LblMensagensCount.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblMensagensCount;
+        
+        /// <summary>
         /// Controle imgSair.
         /// </summary>
         /// <remarks>
@@ -56,5 +101,14 @@ namespace GrgAdm.Web {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblSair;
+        
+        /// <summary>
+        /// Controle LblLogoTipo.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblLogoTipo;
     }
 }

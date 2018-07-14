@@ -1,0 +1,27 @@
+Relatorio de Erro Garagium Adm
+---------------------------------------------------------
+Data: 14/07/2018
+Hora: 16:35
+---------------------------------------------------------
+Mensagem Erro: Authentication to host 'db4free.net' for user 'grgroot' using method 'mysql_native_password' failed with message: Access denied for user 'grgroot'@'%' to database 'sql2247566';
+Causa do Erro: MySql.Data;
+Metodo: Void AuthenticationFailed(System.Exception);
+Inner Exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'grgroot'@'%' to database 'sql2247566'
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket();
+---------------------
+StackTrace:
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   em MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em GrgAdm.Update.Update.BackupBaseDados() em C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\Update.cs:line 91
+---------------------------------------------------------

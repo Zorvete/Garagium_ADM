@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Themes\Geral\Images\background-repeat.png" />
+    <Content Include="App_Themes\Geral\Images\Icons\alarm.png" />
     <Content Include="App_Themes\Geral\Images\Icons\avatar.png" />
     <Content Include="App_Themes\Geral\Images\Icons\envelope.png" />
     <Content Include="App_Themes\Geral\Images\Icons\exit.png" />
@@ -74,6 +75,7 @@
     <Content Include="App_Themes\Geral\Styles\css.css" />
     <Content Include="App_Themes\Geral\Styles\Header.css" />
     <Content Include="App_Themes\Geral\Styles\items.css" />
+    <Content Include="App_Themes\Geral\Styles\Menus.css" />
     <Content Include="App_Themes\Geral\Styles\modal.css" />
     <Content Include="App_Themes\Geral\Styles\Page404Error.css" />
     <Content Include="Error404.html">
@@ -89,7 +91,6 @@
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
-    <Content Include="Scripts\menus.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
