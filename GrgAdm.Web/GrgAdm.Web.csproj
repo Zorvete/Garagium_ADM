@@ -112,7 +112,6 @@
     <Compile Include="Helpers\ASPUtils.cs" />
     <Compile Include="Helpers\JSON.cs" />
     <Compile Include="Helpers\SessionManager.cs" />
-    <Compile Include="Helpers\UtilsEx.cs" />
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -140,6 +139,10 @@
     <ProjectReference Include="..\GrgAdm.Update\GrgAdm.Update.csproj">
       <Project>{46832695-ec48-4714-a4f8-bcfc85adc1c6}</Project>
       <Name>GrgAdm.Update</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GrgAdm.Utils\GrgAdm.Utils.csproj">
+      <Project>{ca9a5a62-0139-4284-8f93-d356d2ba7d88}</Project>
+      <Name>GrgAdm.Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

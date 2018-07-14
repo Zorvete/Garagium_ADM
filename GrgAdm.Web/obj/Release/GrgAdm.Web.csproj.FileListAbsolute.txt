@@ -14,3 +14,5 @@ C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.pdb
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\Error404.html
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Utils.dll
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Utils.pdb

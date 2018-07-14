@@ -1,6 +1,7 @@
-﻿using GrgAdm.Web.Helpers;
+﻿using GrgAdm.Utils;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Security;
@@ -13,8 +14,8 @@ namespace garagium_adm
 
         void Application_Start(object sender, EventArgs e)
         {
-            // Code that runs on application startup
-
+            GrgAdm.Utils.UtilsEx.PastaLogs = ConfigurationManager.AppSettings["PathLogs"].ToString();
+    
         }
 
         void Application_End(object sender, EventArgs e)
@@ -28,9 +29,10 @@ namespace garagium_adm
             try
             {
                 Exception ex = Server.GetLastError();
-                Server.ClearError();
 
                 UtilsEx.Log(ex, "Erro Não tratado!");
+
+                Server.ClearError();             
             }
             catch(Exception ex)
             {

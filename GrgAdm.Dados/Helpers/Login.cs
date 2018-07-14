@@ -1,10 +1,10 @@
-﻿using GrgAdm.Dados.Helpers;
+﻿using GrgAdm.Utils;
 using System;
 using System.Data;
 using GrgAdm.Dados.Classes;
 
 
-namespace GrgAdm.Dados
+namespace GrgAdm.Dados.Helpers
 {
     public class Login
     {

@@ -1,6 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 
-namespace GrgAdm.Dados.Helpers
+namespace GrgAdm.Utils
 {
     public class Connections
     {

@@ -1,0 +1,14 @@
+Relatorio de Erro Garagium Adm
+---------------------------------------------------------
+Data: 14/07/2018
+Hora: 00:58
+---------------------------------------------------------
+Mensagem Erro: A referência de objecto não foi definida como uma instância de um objecto.;
+Causa do Erro: GrgAdm.Web;
+Metodo: Void Log(System.Exception, System.String);
+Inner Exception: ;
+---------------------
+StackTrace:
+   em GrgAdm.Web.Helpers.UtilsEx.Log(Exception ex, String message) em C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\Helpers\UtilsEx.cs:line 31
+   em garagium_adm.Global.Application_Error(Object sender, EventArgs e) em C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\Global.asax.cs:line 30
+---------------------------------------------------------

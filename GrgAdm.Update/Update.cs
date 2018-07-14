@@ -8,6 +8,20 @@ namespace GrgAdm.Update
 {
     public class Update
     {
+        public static void AtualizarBD()
+        {
 
+        }
+
+        private static bool BackupBaseDados()
+        {
+            try
+            {
+                return true;
+            }catch(Exception e)
+            {
+                return false;
+            }
+        }
     }
 }

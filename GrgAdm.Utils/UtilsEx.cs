@@ -6,10 +6,11 @@ using System.Linq;
 using System.Web;
 using System.Text;
 
-namespace GrgAdm.Web.Helpers
+namespace GrgAdm.Utils
 {
     public class UtilsEx
     {
+        public static string PastaLogs { get; set; }
 
         public static void Log(Exception ex)
         {
@@ -48,13 +49,13 @@ namespace GrgAdm.Web.Helpers
 
         private static void MakeLog(string text)
         {
-            string path = ConfigurationManager.AppSettings["PathLogs"].ToString();
+            string path = PastaLogs;
 
             if (!Directory.Exists(path))
                 Directory.CreateDirectory(path);
 
             
-            string file = path + "\\" + string.Format("ErrorLog_{0}{1}{2}_{3}{4}{5}{6}.log", DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second, DateTime.Now.Millisecond);
+            string file = path + "\\" + string.Format("ErrorLog_{0}_{1}_{2}-{3}_{4}_{5}_{6}.log", DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second, DateTime.Now.Millisecond);
             using (StreamWriter sw = new StreamWriter(file, true))
             {
                 sw.WriteLine("Relatorio de Erro Garagium Adm");

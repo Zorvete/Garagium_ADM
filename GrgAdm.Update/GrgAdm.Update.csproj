@@ -51,5 +51,14 @@
   <ItemGroup>
     <Folder Include="Scripts\" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GrgAdm.Utils\GrgAdm.Utils.csproj">
+      <Project>{ca9a5a62-0139-4284-8f93-d356d2ba7d88}</Project>
+      <Name>GrgAdm.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

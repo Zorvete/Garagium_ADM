@@ -2,7 +2,7 @@
 using MySql.Data.MySqlClient;
 using System.Data;
 
-namespace GrgAdm.Dados.Helpers
+namespace GrgAdm.Utils
 {
     public class BaseDados
     {

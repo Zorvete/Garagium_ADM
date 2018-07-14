@@ -38,7 +38,7 @@ namespace garagium_adm
                     return;
                 }
 
-                UserInfo userInfo = GrgAdm.Dados.Login.VerificarLogin(user, pw);
+                UserInfo userInfo = GrgAdm.Dados.Helpers.Login.VerificarLogin(user, pw);
 
                 if(userInfo == null)                
                     throw new Exception("Utilizador não tem informações!");
