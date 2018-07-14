@@ -1,6 +1,5 @@
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.csprojResolveAssemblyReference.cache
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.csproj.CoreCompileInputs.cache
-C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\Error404.html
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Web.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\GrgAdm.Web.pdb
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\AjaxControlToolkit.dll
@@ -18,3 +17,6 @@ C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\obj\Release\GrgAdm.Web.pdb
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\Scripts\src1.sql
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\Error\index.html
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\Error\PageError.css
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\bin\Error\Error.js

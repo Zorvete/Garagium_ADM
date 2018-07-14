@@ -8,14 +8,17 @@ namespace GrgAdm.Web
 
         void Application_Start(object sender, EventArgs e)
         {
+
+            Utils.Connections.ServerConfig = Convert.ToInt32(ConfigurationManager.AppSettings["ServerConfig"] + "");
+
             string raiz = ConfigurationManager.AppSettings["PathRaiz"].ToString();
 
-            GrgAdm.Utils.UtilsEx.PastaLogs = raiz + ConfigurationManager.AppSettings["PathLogs"].ToString();
+            Utils.UtilsEx.PastaLogs = raiz + ConfigurationManager.AppSettings["PathLogs"].ToString();
 
-            GrgAdm.Update.Update.PathScripts = raiz + ConfigurationManager.AppSettings["PathScripts"].ToString();
-            GrgAdm.Update.Update.PathBackups = raiz + ConfigurationManager.AppSettings["PathBackups"].ToString();
+            Update.Update.PathScripts = raiz + ConfigurationManager.AppSettings["PathScripts"].ToString();
+            Update.Update.PathBackups = raiz + ConfigurationManager.AppSettings["PathBackups"].ToString();
 
-            GrgAdm.Update.Update.AtualizarBD();
+            Update.Update.AtualizarBD();
         }
 
         void Application_End(object sender, EventArgs e)
@@ -40,7 +43,7 @@ namespace GrgAdm.Web
             }
             finally
             {
-                Response.Redirect("~/Error404.html");
+                Response.Redirect("~/Error/?=500");
             }          
         }
 
