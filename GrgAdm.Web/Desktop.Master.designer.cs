@@ -10,7 +10,7 @@
 namespace GrgAdm.Web {
     
     
-    public partial class GrgAdm {
+    public partial class Desktop {
         
         /// <summary>
         /// Controle HeadContent.

@@ -1,0 +1,16 @@
+Relatorio de Erro Garagium Adm
+---------------------------------------------------------
+Data: 14/07/2018
+Hora: 01:43
+---------------------------------------------------------
+Mensagem Personalizada: Erro Não tratado!;
+---------------------
+Mensagem Erro: Backup da base de dados nao foi feita!;
+Causa do Erro: GrgAdm.Update;
+Metodo: Void AtualizarBD();
+Inner Exception: ;
+---------------------
+StackTrace:
+   em GrgAdm.Update.Update.AtualizarBD() em C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\Update.cs:line 17
+   em garagium_adm.Global.Application_Start(Object sender, EventArgs e) em C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Web\Global.asax.cs:line 14
+---------------------------------------------------------

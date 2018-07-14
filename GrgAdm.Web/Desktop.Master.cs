@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace GrgAdm.Web
 {
-    public partial class GrgAdm : System.Web.UI.MasterPage
+    public partial class Desktop : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

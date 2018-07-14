@@ -11,7 +11,7 @@ namespace GrgAdm.Utils
 
         public static string BDName { get { return "sql2247566"; } }
 
-        private static string GestComConnectionString = "Database=gestcom;Data Source=127.0.0.1;User Id=root;Password=root;";
+        //private static string GestComConnectionString = "Database=gestcom;Data Source=127.0.0.1;User Id=root;Password=root;";
 
         private static string GetGestComConn()
         {   
@@ -20,7 +20,7 @@ namespace GrgAdm.Utils
             string BDPassword = "qZ2*eC7!";
             string BDPort = "3306";
 
-            string conn = string.Format("Database={0};Data Source={1};User Id={2};Password={3};Port={4};SslMode=none;", BDName, BDHost, BDUsername, BDPassword, BDPort);
+            string conn = string.Format("Database={0};Data Source={1};User Id={2};Password={3};Port={4};SslMode=none;charset=utf8;convertzerodatetime=true;", BDName, BDHost, BDUsername, BDPassword, BDPort);
             return conn;
         }     
     }

@@ -1,13 +1,7 @@
-﻿using GrgAdm.Utils;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Configuration;
-using System.Linq;
-using System.Web;
-using System.Web.Security;
-using System.Web.SessionState;
 
-namespace garagium_adm
+namespace GrgAdm.Web
 {
     public class Global : System.Web.HttpApplication
     {
@@ -15,7 +9,10 @@ namespace garagium_adm
         void Application_Start(object sender, EventArgs e)
         {
             GrgAdm.Utils.UtilsEx.PastaLogs = ConfigurationManager.AppSettings["PathLogs"].ToString();
-    
+
+            GrgAdm.Update.Update.PathBackups = ConfigurationManager.AppSettings["PathBackups"].ToString();
+            GrgAdm.Update.Update.AtualizarBD();
+ 
         }
 
         void Application_End(object sender, EventArgs e)
@@ -30,13 +27,13 @@ namespace garagium_adm
             {
                 Exception ex = Server.GetLastError();
 
-                UtilsEx.Log(ex, "Erro Não tratado!");
+                GrgAdm.Utils.UtilsEx.Log(ex, "Erro Não tratado!");
 
                 Server.ClearError();             
             }
             catch(Exception ex)
             {
-                UtilsEx.Log(ex);
+                GrgAdm.Utils.UtilsEx.Log(ex);
             }
             finally
             {

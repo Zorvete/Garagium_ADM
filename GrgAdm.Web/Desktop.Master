@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GrgAdm.master.cs" Inherits="GrgAdm.Web.GrgAdm" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Desktop.Master.cs" Inherits="GrgAdm.Web.Desktop" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
 <!DOCTYPE html>
 

@@ -1,12 +1,13 @@
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Release\GrgAdm.Update.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Release\GrgAdm.Update.pdb
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Release\GrgAdm.Utils.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Release\MySql.Data.dll
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Release\MySqlBackup.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Release\Google.Protobuf.dll
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Release\GrgAdm.Utils.pdb
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Release\MySql.Data.xml
+C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\obj\Release\GrgAdm.Update.csprojResolveAssemblyReference.cache
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\obj\Release\GrgAdm.Update.csproj.CoreCompileInputs.cache
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\obj\Release\GrgAdm.Update.csproj.CopyComplete
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\obj\Release\GrgAdm.Update.dll
 C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\obj\Release\GrgAdm.Update.pdb
-C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Release\GrgAdm.Utils.dll
-C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\bin\Release\GrgAdm.Utils.pdb
-C:\Users\Ferreira\Desktop\mPlataforma\Garagium_ADM\GrgAdm.Update\obj\Release\GrgAdm.Update.csprojResolveAssemblyReference.cache
